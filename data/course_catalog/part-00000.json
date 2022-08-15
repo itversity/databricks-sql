@@ -1,5 +1,5 @@
-{"table_name": "instrutors", "record": "{\"instructor_id\": 1, \"instructor_name\": \"ITVersity, LLC\"}"}
+{"table_name": "instructors", "record": "{\"instructor_id\": 1, \"instructor_name\": \"ITVersity, LLC\"}"}
 {"table_name": "courses", "record": "{\"course_id\": 1, \"instructor_id\": 1, \"course_title\": \"Mastering Python\"}"}
 {"table_name": "courses", "record": "{\"course_id\": 2, \"instructor_id\": 1, \"course_title\": \"Mastering Databricks SQL\"}"}
-{"table_name": "instrutors", "record": "{\"instructor_id\": 2, \"instructor_name\": \"Analytiqs, Inc\"}"}
+{"table_name": "instructors", "record": "{\"instructor_id\": 2, \"instructor_name\": \"Analytiqs, Inc\"}"}
 {"table_name": "courses", "record": "{\"course_id\": 3, \"instructor_id\": 2, \"course_title\": \"Mastering AWS\"}"}
