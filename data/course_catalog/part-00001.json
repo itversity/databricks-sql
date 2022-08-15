@@ -1,4 +1,4 @@
-{"table_name": "instrutors", "record": "{\"instructor_id\": 2, \"instructor_name\": \"ITVersity, Inc\"}"}
+{"table_name": "instructors", "record": "{\"instructor_id\": 2, \"instructor_name\": \"ITVersity, Inc\"}"}
 {"table_name": "courses", "record": "{\"course_id\": 3, \"instructor_id\": 2, \"course_title\": \"Mastering AWS Data Analytics\"}"}
-{"table_name": "instrutors", "record": "{\"instructor_id\": 3, \"instructor_name\": \"Durga, Gadiraju\"}"}
+{"table_name": "instructors", "record": "{\"instructor_id\": 3, \"instructor_name\": \"Durga, Gadiraju\"}"}
 {"table_name": "courses", "record": "{\"course_id\": 4, \"instructor_id\": 1, \"course_title\": \"Mastering Amazon Redshift\"}"}
