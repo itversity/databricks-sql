@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS retail_db.order_items (
     order_item_product_price FLOAT
 );
 
--- review retail database
+-- Review Retail Database
 
 DESCRIBE FORMATTED retail_db.orders;
 
@@ -29,7 +29,7 @@ DESCRIBE FORMATTED retail_db.order_items;
 -- Step 3: Use Databricks Platform to load data into retail_db tables
 -- Step 4: Review the data using SQL Editor of Databricks SQL Platform
 
--- validate retail database tables.
+-- Validate Retail Database Tables.
 
 SELECT count(*) FROM retail_db.orders;
 
@@ -43,7 +43,7 @@ SELECT count(distinct(order_id)) FROM retail_db.orders;
 
 SELECT count(distinct(order_item_id)) FROM retail_db.order_items;
 
--- Overview of external tables
+-- Overview of External Tables
 
 CREATE EXTERNAL TABLE IF NOT EXISTS retail_db.orders_external (
     order_id INT,
