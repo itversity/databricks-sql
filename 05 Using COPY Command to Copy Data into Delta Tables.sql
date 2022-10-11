@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS retail_db.orders (
     order_date STRING,
     order_customer_id INT,
     order_status STRING
-);
+); 
 
 CREATE TABLE IF NOT EXISTS retail_db.order_items (
     order_item_id INT,
