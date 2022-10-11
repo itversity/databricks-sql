@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS retail_db.order_items (
     order_item_quantity INT,
     order_item_subtotal FLOAT,
     order_item_product_price FLOAT
-);
+); 
 
 SELECT count(*) FROM retail_db.orders;
 COPY INTO retail_db.orders
