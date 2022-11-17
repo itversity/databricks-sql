@@ -23,7 +23,7 @@ COPY INTO retail_db.orders
 FROM (
     SELECT order_id::int order_id, order_date::string order_date, 
         order_customer_id::int order_customer_id, order_status::string order_status
-    FROM 'dbfs:/public/retail_db_json/orders'
+    FROM 'dbfs:/public/retail_db/orders'
 )
 FILEFORMAT = JSON;
 
@@ -35,6 +35,6 @@ FROM (
     SELECT order_item_id::int order_item_id, order_item_order_id::int order_item_order_id, 
         order_item_product_id::int order_item_product_id, order_item_quantity::int order_item_quantity,
         order_item_subtotal::float order_item_subtotal, order_item_product_price::float order_item_product_price
-    FROM 'dbfs:/public/retail_db_json/order_items'
+    FROM 'dbfs:/public/retail_db/order_items'
 )
 FILEFORMAT = JSON;
